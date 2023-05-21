@@ -1,0 +1,41 @@
+programa
+{
+inteiro valor = 1000
+	
+	funcao inicio(){
+	   inteiro ret
+	   cadeia esc
+
+	   escreva("deseja fazer a operação de saque? S/N    \n")
+	   leia(esc)
+
+	  se((esc=="S") ou (esc == "s")){  
+	   	       
+	   	escreva("Insira o valor da retirada: ")
+	   	leia(ret)
+	   	se(ret < valor ){
+		escreva("concluido\n")
+		escreva("seu saldo atual é ", auau(ret), 1+1)
+          
+	   	} 
+	
+		
+	     senao {
+		escreva("saldo insuficiente")	
+	     }
+           
+	  }
+	  
+	  senao{
+	   	escreva("processo finalizado")
+	   }
+	   	
+	   
+	}
+	
+	
+       funcao inteiro auau(inteiro um){
+	         inteiro resultado = valor - um
+	         retorne resultado 
+       }
+	}
