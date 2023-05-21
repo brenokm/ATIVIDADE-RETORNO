@@ -1,0 +1,30 @@
+programa
+{
+	
+	funcao inicio()
+	{
+  
+	     inteiro RA, RB, RC
+		escreva("valor da primeira reta: ")
+		leia(RA)
+		escreva("valor da segunda reta: ")
+		leia(RB)
+		escreva("valor da terceira reta: ")
+		leia(RC)
+          limpa()
+
+          se((RA==RB)e(RA==RC)){
+          	escreva("seu triangulo é EQILÁTERO")
+          }
+
+          senao se((RA==RB)ou(RA==RC)ou(RC==RB)){
+          	escreva("seu triangulo é ISÓCELES")
+          }
+
+          senao{
+          	escreva("seu triangulo é ESCALENO")
+          }
+
+}
+      }    
+		
